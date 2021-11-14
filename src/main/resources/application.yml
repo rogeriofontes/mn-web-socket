@@ -1,0 +1,11 @@
+micronaut:
+  application:
+    name: mnWebsockets
+  server:
+    port: 8186
+  router:
+    static-resources:
+      default:
+        enabled: true
+        mapping: /**
+        paths: classpath:public
